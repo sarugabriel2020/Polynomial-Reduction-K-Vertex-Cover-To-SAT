@@ -89,7 +89,11 @@ The program input is read from stdin and is guaranteed to always be valid.
 **The output** will have to be a Boolean formula in normal Conjunctive Normal Form (CNF), represented by a string, in which:
 
 · **Variables** will be encoded as consecutive natural numbers, starting with 1 (for example, if you have 5 variables, they will be called 1, 2, 3, 4, 5)
+
 · **Negation** will be encoded using the ‘~’ character
+
 · **The disjunction** will be coded using the character ‘V’ (capital letter V)
+
 · **The conjunction** will be encoded using the character ‘^’
+
 · **The clauses** will be enclosed in parentheses ()
